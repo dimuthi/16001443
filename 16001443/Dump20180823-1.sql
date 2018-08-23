@@ -389,7 +389,7 @@ CREATE TABLE `student` (
 
 LOCK TABLES `student` WRITE;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
-INSERT INTO `student` VALUES ('S2','Udari','Vimansana','Gampaha','MALE','1989-10-17','077-7609476','udari@gmail.com'),('S3','Charini','Wickramathilake','Matara','MALE','1995-02-05','076-5467832','charini@gmail.com'),('S4','Nirmani','Gunathilaka','Galle','MALE','1997-01-01','097-8654321','nirmani@gmail.com'),('S5','Lasitha','Wijethilaka','Hapugala','MALE','1994-05-10','097-1234567','lasitha@gmail.com');
+INSERT INTO `student` VALUES ('S2','Udari','Vimansana','Gampaha','MALE','1989-10-17','077-7609476','dimuthi@gmail.com'),('S3','Charini','Wickramathilake','Matara','MALE','1995-02-05','076-5467832','dimuthi@gmail.com'),('S4','Nirmani','Gunathilaka','Galle','MALE','1997-01-01','097-8654321','dimuthi@gmail.com'),('S5','Lasitha','Wijethilaka','Hapugala','MALE','1994-05-10','097-1234567','dimuthi@gmail.com');
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -498,4 +498,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-08-23  0:09:47
+-- Dump completed on 2018-08-23 11:10:56
