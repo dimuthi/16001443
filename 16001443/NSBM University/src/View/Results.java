@@ -384,7 +384,7 @@ public class Results extends javax.swing.JPanel {
         try {
             Connection connection=DBConnection.getDBConnection().getConnection();
             final String username="plpdesilva@gmail.com";
-            final String password="123";
+            final String password="mail@leena";
             Properties props = new Properties();
 
             props.put("mail.smtp.host", "smtp.gmail.com");
@@ -408,7 +408,7 @@ public class Results extends javax.swing.JPanel {
 
            String name=txtstudentname.getText();
            String subname=lblSubjectName.getText();
-           String marks=txtMarks.getText();
+           String marks=txtaverage.getText();
            String[] str=txtstudentname.getText().split(" ");
            String firstname=str[0];
            String sql="select email from student where firstName=?";
@@ -433,7 +433,7 @@ public class Results extends javax.swing.JPanel {
                 MimeMultipart multipart = new MimeMultipart();
                 multipart.addBodyPart(messageBodyPart1);
                 MimeBodyPart messageBodyPart2 = new MimeBodyPart();
-                messageBodyPart2.setText("\n\n "+marks);
+                messageBodyPart2.setText("\n\n Resut is"+marks);
                 multipart.addBodyPart(messageBodyPart2);
                 message.setContent(multipart);
                 Transport.send(message);
